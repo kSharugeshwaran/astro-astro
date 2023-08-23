@@ -1,0 +1,71 @@
+body{
+    background-image: url(https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/sky-moon-bg%5B1%5D.png)   ;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+#as1{
+    width: 500px;
+    animation: floating 5s infinite;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+}
+#as2{
+    width: 500px;
+    animation: floating 5s infinite;
+    position: absolute;
+    top: 200px;
+    left: 340px;
+}
+@keyframes floating{
+    0%{
+        transform: translateY(0px);
+
+    }
+    50%{
+        transform: translateY(70px) ;
+    }
+}
+form{
+    background-color: rgb(203, 132, 146);
+    position: absolute;
+    width: 450px;
+    height: 50%;
+
+    text-align: center;
+
+    top: 15%;
+    
+    padding: 0 75px;
+    border-radius: 50px;
+    left: 56%;
+}
+.block-1{
+    display: block;
+}
+label{
+    font-size: 16px;
+    margin: 8px 0 4px;
+    margin-bottom:5px;
+
+}
+SUBMIT{
+    padding: 20px;
+    color: bisque;
+    text-align: center;
+    margin:20px auto;
+}
+input[type="text"]
+input[type="email"]{
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+input[type="    submit"]{
+
+}
